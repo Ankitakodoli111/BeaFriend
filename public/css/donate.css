@@ -1,0 +1,60 @@
+/* Section */
+.coloured-section {
+  background-color: #b7b7b7;
+  height:80px;
+}
+
+.navbar{
+  position:relative;
+  padding:10px 40px 0 40px;
+}
+
+sup{
+  color:red;
+  font-size:15px;
+
+}
+#form-section{
+  margin:150px 150px 0 150px;
+  border:2px solid black;
+  padding:3% 5%;
+}
+
+.form-check-input{
+  height:20px;
+  width:20px;
+}
+
+.form-check-label{
+  font-size: 20px;
+      margin-left: 10px;
+      font-weight: bolder;
+}
+
+  .submit-button {
+    width:200px;
+    margin:auto;
+    margin-top: 50px;
+    text-align:center;
+}
+
+#footer-section{
+  margin-top: 100px;
+}
+
+@media(max-width:1000px){
+  #form-section{
+    margin:50px 50px 0 50px;
+    border:2px solid black;
+    padding:3% 5%;
+  }
+}
+
+
+.jumbotron{
+  text-align: center;
+  padding:100px;
+  margin-top:100px;
+  margin-left:50px;
+  margin-right:50px;
+}
