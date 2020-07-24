@@ -70,7 +70,8 @@ img{
 
   width: 50%;
   float:none;
-  margin:auto;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #footer-section{
