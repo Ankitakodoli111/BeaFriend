@@ -15,9 +15,9 @@ sup{
 }
 
 #form-section{
-  margin:2px 2px 2px 2px;
+  margin:10px;
   border:2px solid black;
-  padding:0;
+  padding:5px 5px 5px 5px;
 }
 
 .form-check-input{
