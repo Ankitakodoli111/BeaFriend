@@ -68,7 +68,7 @@ $(document).ready(function() {
         required: "Please enter a gmail account mail id"
       },
       mobileNumber: {
-        required: "Please enter a valid 10 digit mobile Number"
+        required: "Please enter a valid number(10 digit)"
       },
       address: {
         required: "Please enter a valid address from where our volunteer can pickup the things",
@@ -95,6 +95,7 @@ $(document).ready(function() {
         error.appendTo(displaymsg);
       } else {
         error.insertAfter(element);
+        element.css("border","1px solid red");
       }
 
     }
