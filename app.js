@@ -45,7 +45,7 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: 'beafriend2712@gmail.com',
+    user: process.env.EMAIL,
     pass: process.env.PASSWORD,
     host: '127.0.0.1'
   }
@@ -54,7 +54,7 @@ const transporter = nodemailer.createTransport({
 
 
 app.get("/", function(req, res) {
-  res.render("home");
+  res.render("main");
 });
 
 app.get("/donate", function(req, res) {
@@ -64,7 +64,6 @@ app.get("/donate", function(req, res) {
 
 app.post("/donate", function(req, res) {
   // console.log(req);
-
   const newUser = new User({
     firstName: req.body.fName,
     lastName: req.body.lName,
@@ -87,9 +86,7 @@ app.post("/donate", function(req, res) {
   const name = _.capitalize(req.body.fName);
   const lname = _.capitalize(req.body.lName);
 
-  // res.render("test",{name:name,lname:lname});
-
-  ejs.renderFile(__dirname + "/views/test.ejs", {
+  ejs.renderFile(__dirname + "/views/email.ejs", {
     name: name,
     lname: lname
   }, function(err, data) {
@@ -116,26 +113,6 @@ app.post("/donate", function(req, res) {
   res.render("success");
 
 });
-
-
-// const mailoptions={
-//   from:'beafriend2712@gmail.com',
-//   to:email,
-//   subject:"my first webapp",
-//   text:"hello User"
-// };
-//
-// transporter.sendMail(mailoptions,function(err,info){
-//   if(err){
-//     console.log(err);
-//   }else{
-//     console.log('email sent'+info.response);
-//   }
-// })
-
-
-
-
 
 
 app.listen(3000, function(req, res) {
