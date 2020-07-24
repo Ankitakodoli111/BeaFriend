@@ -15,7 +15,7 @@ sup{
 }
 
 #form-section{
-  margin:10px;
+  margin:5px;
   border:2px solid black;
   padding:20px;
 }
@@ -61,7 +61,7 @@ li{
 
 .step1{
   width:100%;
-  margin:10px 0 10px 0;
+  margin:10px 10px 10px 10px;
   line-height: 2;
   text-align:none;
 }
