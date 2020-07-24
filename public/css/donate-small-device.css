@@ -6,7 +6,7 @@
 
 .navbar{
   position:relative;
-  padding:10px 40px 0 40px;
+  padding:10px 20px 0 20px;
 }
 
 sup{
@@ -17,7 +17,7 @@ sup{
 #form-section{
   margin:10px;
   border:2px solid black;
-  padding:5px 5px 5px 5px;
+  padding:15px;
 }
 
 .form-check-input{
@@ -27,7 +27,7 @@ sup{
 
 .form-check-label{
   font-size:1rem;
-  margin-left: 1px;
+  margin-left: 5px;
   font-weight: bolder;
 }
 
@@ -41,11 +41,12 @@ sup{
 /* steps section */
 
 #steps-section{
-  margin:0;
+  margin:10px;
 }
 
 h1{
   color:#184d47;
+  margin:10px 0 10px 0;
 }
 
 h2{
@@ -62,7 +63,7 @@ li{
   width:100%;
   margin:10px 0 10px 0;
   line-height: 2;
-  text-align:center;
+  text-align:none;
 }
 
 img{
