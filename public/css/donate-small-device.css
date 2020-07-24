@@ -12,11 +12,10 @@
 sup{
   color:red;
   font-size:15px;
-
 }
 
 #form-section{
-  margin:0;
+  margin:2px 2px 2px 2px;
   border:2px solid black;
   padding:0;
 }
@@ -27,7 +26,7 @@ sup{
 }
 
 .form-check-label{
-  font-size:3rem;
+  font-size:1rem;
   margin-left: 1px;
   font-weight: bolder;
 }
