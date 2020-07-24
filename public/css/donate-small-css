@@ -16,9 +16,9 @@ sup{
 }
 
 #form-section{
-  margin:150px 150px 0 150px;
+  margin:10px 15px 0 15px;
   border:2px solid black;
-  padding:3% 5%;
+  padding:0;
 }
 
 .form-check-input{
@@ -27,7 +27,7 @@ sup{
 }
 
 .form-check-label{
-  font-size: 20px;
+  font-size:3rem;
       margin-left: 10px;
       font-weight: bolder;
 }
@@ -42,7 +42,7 @@ sup{
 /* steps section */
 
 #steps-section{
-  margin:25px 150px 150px 150px;
+  margin:25px 10px 150px 10px;
 }
 
 h1{
@@ -58,24 +58,23 @@ li{
   color:#4f8a8b;
   font-size:1.1rem;
 }
+
 .step1{
   width:100%;
-  margin:100px auto 100px auto;
+  margin:10px auto 10px auto;
   line-height: 2;
-  text-align:left;
+  text-align:center;
 }
 
 img{
-  width: 25%;
-  float:left;
+  width: 50%;
+  float:none;
   margin: 0 80px 0 0;
 }
 
 #footer-section{
   margin-top: 100px;
 }
-
-
 
 .jumbotron{
   text-align: center;
