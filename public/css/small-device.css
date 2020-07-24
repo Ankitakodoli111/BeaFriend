@@ -1,7 +1,7 @@
 /* heading */
 h2{
   color: #fbd46d;
-  font-size: 3rem;
+  font-size: 8rem;
 }
 
 .section-heading,h3{
@@ -9,7 +9,7 @@ h2{
 }
 
 h3{
-    font-size:2rem;
+    font-size:7rem;
 }
 
 
@@ -23,6 +23,7 @@ h3{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     width:100%;
+    height:50%;
 }
 
 
@@ -39,11 +40,11 @@ h3{
 }
 
 .navbar-brand{
-  font-size:30px;
+  font-size:60px;
 }
 
 .navbar-nav{
-  font-size:20px;
+  font-size:50px;
   margin-right:10px;
 }
 
@@ -61,14 +62,14 @@ h3{
 
 .work-text, .help-text, #footer-section{
 color:#4f8a8b;
-font-size: 1.1rem;
+font-size: 7rem;
 line-height: 1.5;
 }
 
 .sect2{
 float:right;
-  width:70%;
-  text-align:right;
+width:70%;
+text-align:right;
 
 }
 
@@ -83,12 +84,13 @@ p.help-text{
 }
 
 .card-block{
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
 .card-img{
-  height:40%;
-  width:30%;
+  height:50%;
+  width:40%;
   border-radius: 100%;
 }
 
@@ -98,6 +100,7 @@ p.help-text{
 #footer-section{
   background-color:#f4f6ff;
   padding:7% 5%;
+  font-size:10rem;
   margin-top:50px;
 }
 
