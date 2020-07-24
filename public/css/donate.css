@@ -16,7 +16,7 @@ sup{
 }
 
 #form-section{
-  margin:150px 150px 0 150px;
+  margin:50px 150px 0 150px;
   border:2px solid black;
   padding:3% 5%;
 }
@@ -47,6 +47,9 @@ sup{
 
 h1,h3{
   color:#184d47;
+}
+h3{
+  margin:0px 150px 0 150px;
 }
 
 h2{

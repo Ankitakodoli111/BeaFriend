@@ -44,7 +44,7 @@ sup{
   margin:10px;
 }
 
-h1{
+h1,h3{
   color:#184d47;
   margin:10px 10px 30px 10px;
 }
@@ -67,11 +67,12 @@ li{
 }
 
 img{
-
+display:block;
   width: 50%;
   float:none;
   margin-left:auto;
   margin-right:auto;
+  display:block;
 }
 
 #footer-section{
