@@ -47,7 +47,7 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: process.env.EMAIL,
     pass: process.env.PASSWORD,
-    host: '127.0.0.1'
+    host: process.env.HOST
   }
 });
 
@@ -94,7 +94,7 @@ app.post("/donate", function(req, res) {
       console.log(err);
     } else {
       var mailOptions = {
-        from: 'beaFriend2712@gmail.com',
+        from: process.env.EMAIL,
         to: email,
         subject: 'Thank you for your contribution for making a life better.',
         html: data
@@ -110,7 +110,7 @@ app.post("/donate", function(req, res) {
     }
   });
 
-  res.render("success");
+  res.render("success",{name:name});
 
 });
 
