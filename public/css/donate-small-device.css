@@ -17,7 +17,7 @@ sup{
 #form-section{
   margin:10px;
   border:2px solid black;
-  padding:15px;
+  padding:20px;
 }
 
 .form-check-input{
@@ -46,7 +46,7 @@ sup{
 
 h1{
   color:#184d47;
-  margin:10px 0 10px 0;
+  margin:10px 10px 30px 10px;
 }
 
 h2{
@@ -67,9 +67,10 @@ li{
 }
 
 img{
+
   width: 50%;
   float:none;
-  margin:0;
+  margin:auto;
 }
 
 #footer-section{
@@ -78,8 +79,8 @@ img{
 
 .jumbotron{
   text-align: center;
-  padding:100px;
+  padding:10px;
   margin-top:100px;
-  margin-left:0;
-  margin-right:0;
+  margin-left:20px;
+  margin-right:20px;
 }
