@@ -55,7 +55,7 @@ h3{
 }
 
 .sect1{
-  width:70%;
+  width:100%;
   clear:both;
 }
 
@@ -67,7 +67,7 @@ line-height: 1.5;
 
 .sect2{
 float:right;
-  width:70%;
+  width:100%;
   text-align:right;
 
 }
@@ -87,8 +87,8 @@ p.help-text{
 }
 
 .card-block{
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .card-img{
   height:40%;
