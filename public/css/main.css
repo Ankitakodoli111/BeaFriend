@@ -103,6 +103,9 @@ p.help-text{
   padding:5% 5% 3%;
   margin-top:50px;
 }
+.footer-heading{
+  margin-bottom:1rem;
+}
 .footer-text{
   margin-bottom:2px;
 }
