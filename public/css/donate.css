@@ -1,12 +1,11 @@
 /* Section */
 .coloured-section {
   background-color: #b7b7b7;
-  height:80px;
 }
 
 .navbar{
   position:relative;
-  padding:10px 40px 0 40px;
+  padding:10px 40px 10px 40px;
 }
 
 sup{
