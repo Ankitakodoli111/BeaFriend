@@ -34,12 +34,13 @@ h3{
   left: 0;
   color:#fff;
   width:100%;
-  padding:5px 0 0 0;
+  padding:5px 10px 0 10px;
 
 }
 
 .navbar-brand{
-  font-size:30px;
+  font-size:15px;
+  padding-left:2px;
 }
 
 .navbar-nav{
