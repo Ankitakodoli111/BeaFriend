@@ -46,6 +46,9 @@ h3{
   font-size:20px;
   margin-right:10px;
 }
+.bg-light{
+  background-color: #b7b7b7 !important;
+}
 
 
   /* working section */
