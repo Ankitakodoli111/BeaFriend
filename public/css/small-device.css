@@ -107,8 +107,11 @@ p.help-text{
 
 #footer-section{
   background-color:#f4f6ff;
-  padding:7% 5%;
+  padding:5% 5% 3%;
   margin-top:50px;
+}
+.footer-text{
+  margin-bottom:2px;
 }
 
 .col1{
