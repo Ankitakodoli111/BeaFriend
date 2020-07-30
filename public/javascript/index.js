@@ -1,13 +1,16 @@
 $(document).ready(function() {
 
+    // checks for a gamil id
   $.validator.addMethod('gmailId', function(value, element) {
     return this.optional(element) || /^\w+([-+.']\w+)*@gmail.com$/.test(value);
   }, 'Please enter a gmail id email');
 
+  // checks a for valid number
   $.validator.addMethod('validnum', function(value, element) {
     return this.optional(element) || /^[6-9]\d{9}$/.test(value);
   }, 'Please enter a valid number');
-
+  
+  // checks a valid PinCode
   $.validator.addMethod('validcode', function(value, element) {
     return this.optional(element) || value.length == 6 && /^[5]\d{5}$/.test(value);
   }, 'Please enter a six digit code');

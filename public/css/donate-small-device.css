@@ -1,41 +1,22 @@
 /* Section */
-.coloured-section {
-  background-color: #b7b7b7;
-}
 
 .navbar{
   position:relative;
   padding:10px 10px 10px 10px;
 }
 
-sup{
-  color:red;
-  font-size:15px;
-}
-
+/* form section */
 #form-section{
   margin:5px;
-  border:2px solid black;
   padding:20px;
 }
 
-.form-check-input{
-  height:20px;
-  width:20px;
-}
 
 .form-check-label{
   font-size:1rem;
   margin-left: 5px;
-  font-weight: bolder;
 }
 
-  .submit-button {
-    width:200px;
-    margin:auto;
-    margin-top: 50px;
-    text-align:center;
-}
 
 /* steps section */
 
@@ -44,24 +25,21 @@ sup{
 }
 
 h1, .form-heading{
-  color:#184d47;
   margin:10px 10px 30px 10px;
 }
 
 h2{
-  color:#fbd46d;
-  font-size: 3rem;
-
+  font-size: 2rem;
 }
+
 li{
-  color:#4f8a8b;
-  font-size:1.1rem;
+  font-size:0.9rem;
 }
 
 .step1{
   width:100%;
   margin:10px 10px 10px 10px;
-  line-height: 2;
+  line-height: 1;
   text-align:none;
 }
 
@@ -74,18 +52,10 @@ display:block;
   display:block;
 }
 
-#footer-section{
-  margin-top: 100px;
-}
-
+/* success page */
 .jumbotron{
-  text-align:center;
   padding:5px 0 5px;
   margin-top:100px;
   margin-left:3px;
   margin-right:3px;
-}
-
-.overflow{
-  overflow: auto;
 }

@@ -8,6 +8,7 @@
   padding:10px 40px 10px 40px;
 }
 
+/* form section */
 sup{
   color:red;
   font-size:15px;
@@ -54,7 +55,6 @@ h1,h3{
 h2{
   color:#fbd46d;
   font-size: 3rem;
-  /* margin-bottom: 0; */
 }
 li{
   color:#4f8a8b;
@@ -73,12 +73,14 @@ img{
   margin: 0 80px 0 0;
 }
 
+/* footer section  */
+
 #footer-section{
   margin-top: 100px;
 }
 
 
-
+/* success page */
 
 .jumbotron{
   text-align: center;

@@ -4,54 +4,25 @@ h2{
   font-size: 2rem;
 }
 
-.section-heading,h3{
-  color:#184d47;
-}
-
 h3{
     font-size:1rem;
 }
 
 
-/* Title-Section */
-
-.title{
-  position: relative;
-}
-
-.title-image{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    width:100%;
-}
-
 
 /* Navigation bar */
 
 .navbar{
-  position:absolute;
   top: 0;
   left: 0;
-  color:#fff;
   width:100%;
   padding:5px 10px 2px 10px;
-
 }
 
 .navbar-brand{
   font-size:20px;
   padding-left:2px;
 }
-
-.navbar-nav{
-  font-size:20px;
-  margin-right:10px;
-}
-
-.bg-light{
-  background-color: #b7b7b7 !important;
-}
-
 
   /* working section */
 
@@ -61,64 +32,36 @@ h3{
 
 .sect1{
   width:100%;
-  clear:both;
 }
 
 .work-text, .help-text, #footer-section{
-color:#4f8a8b;
-font-size: 0.8rem;
+font-size: 0.9rem;
 line-height: 1;
 }
 
 .sect2{
-float:right;
   width:100%;
-  text-align:right;
-
 }
 
 /* helping section */
-#donate{
-  padding:0% 5%;
-  text-align: center;
-  color:#fff;
-}
-p.help-text{
-  padding:1%;
-}
+
 
 .card{
-  margin-top:10px;
+  margin-top:12px;
 }
 
 .card-block{
-  padding-left: 40px;
-  padding-right: 40px;
-}
-.card-img{
-  height:40%;
-  width:30%;
-  border-radius: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 
 /* footer section */
 
-#footer-section{
-  background-color:#f4f6ff;
-  padding:5% 5% 3%;
-  margin-top:50px;
-}
 .footer-heading{
   margin-bottom:0.2rem;
 }
-.footer-text{
-  margin-bottom:2px;
-}
 
-.col1{
-  text-align:left;
-}
 .col2{
   margin-top:10px;
   text-align:right;
