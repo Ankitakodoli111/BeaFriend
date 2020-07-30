@@ -53,7 +53,7 @@ $(document).ready(function() {
         required: true
       }
     },
-    messages:{
+    messages: {
       fName: {
         required: "Please enter your First Name",
         nowhitespace: "No space Allowed",
@@ -95,9 +95,9 @@ $(document).ready(function() {
         error.appendTo(displaymsg);
       } else {
         error.insertAfter(element);
-        element.css("border","1px solid red");
+        element.css("border", "1px solid red");
       }
-
     }
   });
+
 });

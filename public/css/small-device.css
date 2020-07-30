@@ -1,7 +1,7 @@
 /* heading */
 h2{
   color: #fbd46d;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .section-heading,h3{
@@ -9,7 +9,7 @@ h2{
 }
 
 h3{
-    font-size:2rem;
+    font-size:1rem;
 }
 
 
@@ -53,11 +53,10 @@ h3{
 }
 
 
-
   /* working section */
 
 #Working-section{
-  padding:3% 10%;
+  padding:3% 5%;
 }
 
 .sect1{
@@ -67,8 +66,8 @@ h3{
 
 .work-text, .help-text, #footer-section{
 color:#4f8a8b;
-font-size: 1.1rem;
-line-height: 1.5;
+font-size: 0.8rem;
+line-height: 1;
 }
 
 .sect2{
