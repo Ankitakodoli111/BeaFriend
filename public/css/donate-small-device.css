@@ -24,6 +24,10 @@
   margin:10px;
 }
 
+h1{
+  font-size: 2.5rem;
+}
+
 h1, .form-heading{
   margin:10px 10px 30px 10px;
 }
@@ -33,13 +37,13 @@ h2{
 }
 
 li{
-  font-size:0.9rem;
+  font-size:1rem;
 }
 
 .step1{
   width:100%;
   margin:10px 10px 10px 10px;
-  line-height: 1;
+  line-height: 1.6;
   text-align:none;
 }
 
